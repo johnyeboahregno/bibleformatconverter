@@ -6,11 +6,9 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-
         if(args.Length <= 0)
         {
-            Console.WriteLine("Please provide a file name");
+            Console.WriteLine("Please provide a file name without extension");
             return;
         }
 
