@@ -8,21 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="bibles\AMP.xml" />
-    <None Remove="bibles\ESV.xml" />
-    <None Remove="bibles\TargetFormatSF_2009-01-23_ENG_KJV_(KING JAMES VERSION).xml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="bibles\AMP.xml">
+    <None Update="bibles\AMP.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="bibles\ESV.xml">
+    </None>
+    <None Update="bibles\ESV.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="bibles\TargetFormatSF_2009-01-23_ENG_KJV_%28KING JAMES VERSION%29.xml">
+    </None>
+    <None Update="bibles\TargetFormatSF_2009-01-23_ENG_KJV_%28KING JAMES VERSION%29.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </None>
   </ItemGroup>
 
 </Project>

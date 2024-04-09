@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BibleFormatConverter": {
+      "commandName": "Project",
+      "commandLineArgs": "--folder \"D:\\repos\\github\\bibleformatconverter\\bibles\""
+    }
+  }
+}
